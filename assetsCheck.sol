@@ -82,7 +82,7 @@ contract assetsCheck {
         require (msg.sender == owner);
         _;
     }
-
+//Sahil check please
   function tokenSale (address _to, uint tokenAmount) external onlyOwner {
         if (isPreSaleActive()==true) {
             require (tokenAmount <= 1);
